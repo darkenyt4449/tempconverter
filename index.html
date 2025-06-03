@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+    <div class="tools">
+        <div class="circle">
+        <span class="red box"></span>
+        </div>
+        <div class="circle">
+        <span class="yellow box"></span>
+        </div>
+        <div class="circle">
+        <span class="green box"></span>
+        </div>
+    </div>
+    <div class="content">TEMPERATURE CONVERTER
+    </div><br>
+    <form class="inline-form" action="/action.php"><input class="placeh" type="number" placeholder="Enter Temperature">
+    
+    <select id="temp" name="temp">
+        <option value="Fahrenheit">Fahrenheit</option>
+        <option value="Celsius">Celsius</option>
+        <option value="Kelvin">Kelvin</option>
+    </select>
+    </form><br><br>
+    <form class="inline-form" action="/action.php"><input class="placeh" type="number" placeholder="">
+    
+    <select id="temp" name="temp">
+        <option value="Fahrenheit">Fahrenheit</option>
+        <option value="Celsius">Celsius</option>
+        <option value="Kelvin">Kelvin</option>
+    </select>
+    </form><br><br>
+    <button class="button" onclick="convertTemp()">Convert</button>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
